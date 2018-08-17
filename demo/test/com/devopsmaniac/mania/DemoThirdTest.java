@@ -10,4 +10,14 @@ public class DemoThirdTest {
 	public void somethingRandom() {
 		assertEquals( 1, Demo.somethingRandom() );
 	}
+
+	@Test
+	public void anotherTest() {
+		assertEquals( 1, Demo.somethingRandom() );
+	}
+
+	@Test
+	public void yetAnotherTest() {
+		assertEquals( 1, Demo.somethingRandom() );
+	}
 }
