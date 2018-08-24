@@ -11,7 +11,7 @@ import org.junit.Test;
 public class SeleniumTest {
 	
 	@Test
-	public void checkRamdonSite() throws InterruptedException, MalformedURLException {
+	public void checkRandonSitePass() throws InterruptedException, MalformedURLException {
 
 		RemoteWebDriver driver = new RemoteWebDriver(
                 new URL("http://selenium.sndevops.xyz:4444/wd/hub"),
@@ -22,7 +22,7 @@ public class SeleniumTest {
 		
         // Print a Log In message to the screen
         System.out.println("Successfully opened the website google.com");
-        assertEquals("Google", driver.getTitle());
+        assertEquals(driver.getTitle(), "Google");
         
 		//Wait for 5 Sec
 		Thread.sleep(5000);
@@ -30,4 +30,26 @@ public class SeleniumTest {
         // Close the driver
         driver.quit();
 	}
+
+	@Test
+	public void checkRandonSiteFail() throws InterruptedException, MalformedURLException {
+
+		RemoteWebDriver driver = new RemoteWebDriver(
+                new URL("http://selenium.sndevops.xyz:4444/wd/hub"),
+                DesiredCapabilities.firefox());
+		
+        //Launch the Online Store Website
+		driver.get("http://www.google.com");
+		
+        // Print a Log In message to the screen
+        System.out.println("Successfully opened the website google.com");
+        assertEquals(driver.getTitle(), "Yahoo");
+        
+		//Wait for 5 Sec
+		Thread.sleep(5000);
+		
+        // Close the driver
+        driver.quit();
+	}
+
 }
