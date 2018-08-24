@@ -1,18 +1,21 @@
 package com.devopsmaniac.mania;
 
 import static org.junit.Assert.*;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.junit.Test;
 public class SeleniumTest {
 	
 	@Test
-	public void checkRamdonSite() throws InterruptedException {
+	public void checkRamdonSite() throws InterruptedException, MalformedURLException {
 
-		// Create a new instance of the Firefox driver
-		WebDriver driver = new FirefoxDriver();
+		RemoteWebDriver driver = new RemoteWebDriver(
+                new URL("http://selenium.sndevops.xyz:4444/wd/hub"),
+                DesiredCapabilities.firefox());
 		
         //Launch the Online Store Website
 		driver.get("http://www.google.com");
