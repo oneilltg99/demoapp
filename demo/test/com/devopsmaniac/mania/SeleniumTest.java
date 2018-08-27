@@ -11,7 +11,7 @@ import org.junit.Test;
 public class SeleniumTest {
 	
 	@Test
-	public void checkRandonSitePass() throws InterruptedException, MalformedURLException {
+	public void checkRandomSitePass() throws InterruptedException, MalformedURLException {
 
 		RemoteWebDriver driver = new RemoteWebDriver(
                 new URL("http://selenium.sndevops.xyz:4444/wd/hub"),
@@ -32,7 +32,7 @@ public class SeleniumTest {
 	}
 
 	@Test
-	public void checkRandonSiteFail() throws InterruptedException, MalformedURLException {
+	public void checkRandomSiteFail() throws InterruptedException, MalformedURLException {
 
 		RemoteWebDriver driver = new RemoteWebDriver(
                 new URL("http://selenium.sndevops.xyz:4444/wd/hub"),
