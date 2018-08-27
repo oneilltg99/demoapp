@@ -23,7 +23,7 @@ import java.io.StringWriter;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+// import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.OutputType;
 
 // trying to get screenshot, but not working for me (locally or remotely)
@@ -37,10 +37,10 @@ public class ScreenshotTest {
 	@Test
 	public void checkRandomSitePass() throws InterruptedException, MalformedURLException {
 
-		// driver = new RemoteWebDriver(
-        //         new URL("http://selenium.sndevops.xyz:4444/wd/hub"),
-        //         DesiredCapabilities.firefox());
-		driver = new FirefoxDriver();
+		driver = new RemoteWebDriver(
+                new URL("http://selenium.sndevops.xyz:4444/wd/hub"),
+                DesiredCapabilities.firefox());
+		//driver = new FirefoxDriver();
 
         //Launch the Online Store Website
 		driver.get("http://www.google.com");
