@@ -26,6 +26,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 // import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.OutputType;
 
+
 // trying to get screenshot, but not working for me (locally or remotely)
 
 
