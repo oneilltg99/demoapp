@@ -29,7 +29,6 @@ import org.openqa.selenium.OutputType;
 
 // trying to get screenshot, but not working for me (locally or remotely)
 
-
 public class ScreenshotTest {
 	private static WebDriver driver;
 
