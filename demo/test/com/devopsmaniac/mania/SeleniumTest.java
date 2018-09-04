@@ -31,7 +31,7 @@ public class SeleniumTest {
         driver.quit();
 	}
 
-	@Test
+	/*@Test
 	public void checkRandomSiteFail() throws InterruptedException, MalformedURLException {
 
 		RemoteWebDriver driver = new RemoteWebDriver(
@@ -50,6 +50,6 @@ public class SeleniumTest {
 		
         // Close the driver
         driver.quit();
-	}
+	}*/
 
 }
