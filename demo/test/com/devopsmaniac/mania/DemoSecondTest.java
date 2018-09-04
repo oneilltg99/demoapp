@@ -8,10 +8,10 @@ import org.junit.Ignore;
 
 public class DemoSecondTest {
 
-	/*@Test
+	@Test
 	public void somethingRandom() {
 		assertEquals( 1, Demo.somethingRandom() );
-	} */
+	}
 
 	@Test
 	@Ignore
