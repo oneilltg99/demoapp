@@ -11,13 +11,13 @@ public class DemoThirdTest {
 		assertEquals( 1, Demo.somethingRandom() );
 	}*/
 
-	/*@Test
+	@Test
 	public void anotherTest() {
 		assertEquals( 1, Demo.somethingRandom() );
-	}*/
+	}
 
-/*	@Test
+	@Test
 	public void yetAnotherTest() {
 		assertEquals( 1, Demo.somethingRandom() );
-	}*/
+	}
 }
