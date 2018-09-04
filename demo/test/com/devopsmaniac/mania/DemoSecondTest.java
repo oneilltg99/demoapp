@@ -10,7 +10,7 @@ public class DemoSecondTest {
 	@Test
 	public void somethingRandom() {
 		assertEquals( 1, Demo.somethingRandom() );
-	}
+	} 
 
 	@Test
 	@Ignore
