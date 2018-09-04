@@ -61,7 +61,7 @@ public class ScreenshotTest {
         driver.quit();
 	}
 
-/*	@Test
+	@Test
 	public void checkRandomSiteFail() throws InterruptedException, MalformedURLException {
 
 		RemoteWebDriver driver = new RemoteWebDriver(
@@ -80,7 +80,7 @@ public class ScreenshotTest {
 
         // Close the driver
         driver.quit();
-	}*/
+	}
 
 class ScreenshotTestRule implements MethodRule {
     public Statement apply(final Statement statement, final FrameworkMethod frameworkMethod, final Object o) {
