@@ -7,7 +7,7 @@ import java.net.URL;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.junit.Test;
+import org.junit.Test; 
 public class SeleniumTest { 
 	
 	@Test
