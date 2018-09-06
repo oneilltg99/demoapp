@@ -25,7 +25,7 @@ public class SeleniumTest {
         assertEquals(driver.getTitle(), "Google");
         
 		//Wait for 5 Sec
-		Thread.sleep(5000);
+		Thread.sleep(5000); 
 		
         // Close the driver
         driver.quit();
