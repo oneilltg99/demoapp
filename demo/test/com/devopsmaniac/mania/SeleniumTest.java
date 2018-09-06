@@ -8,7 +8,7 @@ import java.net.URL;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.junit.Test;
-public class SeleniumTest {
+public class SeleniumTest { 
 	
 	@Test
 	public void checkRandomSitePass() throws InterruptedException, MalformedURLException {
