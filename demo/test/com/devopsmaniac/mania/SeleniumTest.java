@@ -21,7 +21,7 @@ public class SeleniumTest {
 		driver.get("http://www.google.com"); 
 		 
         // Print a Log In message to the screen
-        System.out.println("Successfully opened the website google.com");
+        System.out.println("Successfully opened the website google.com"); 
         assertEquals(driver.getTitle(), "Google");
         
 		//Wait for 5 Sec
