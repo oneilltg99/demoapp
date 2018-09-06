@@ -18,8 +18,8 @@ public class SeleniumTest {
                 DesiredCapabilities.firefox());
 		
         //Launch the Online Store Website
-		driver.get("http://www.google.com");
-		
+		driver.get("http://www.google.com"); 
+		 
         // Print a Log In message to the screen
         System.out.println("Successfully opened the website google.com");
         assertEquals(driver.getTitle(), "Google");
