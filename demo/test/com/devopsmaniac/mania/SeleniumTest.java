@@ -10,7 +10,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.junit.Test; 
 
-@Ignore
 public class SeleniumTest { 
 	
 	@Test
@@ -34,7 +33,7 @@ public class SeleniumTest {
         driver.quit();
 	}
 
-	@Test
+	/*@Test
 	public void checkRandomSiteFail() throws InterruptedException, MalformedURLException {
 
 		RemoteWebDriver driver = new RemoteWebDriver(
@@ -53,6 +52,6 @@ public class SeleniumTest {
 		
         // Close the driver
         driver.quit();
-	}
+	}*/
 
 }
