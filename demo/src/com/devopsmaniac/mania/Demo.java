@@ -9,7 +9,12 @@ public class Demo {
 	}
 
 	public static int somethingRandom() {
-		if (Math.random() < 0.3)
+		try {
+			Thread.sleep(1);
+		} catch (InterruptedException e) {
+			
+		}
+		if (Math.random() < 0.4)
 			return 0;
 		else
 			return 1;
