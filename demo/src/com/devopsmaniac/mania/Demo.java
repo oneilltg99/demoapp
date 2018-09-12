@@ -10,7 +10,7 @@ public class Demo {
 
 	public static int somethingRandom() {
 		try {
-			Thread.sleep(1);
+			Thread.sleep(10);
 		} catch (InterruptedException e) {
 			
 		}
