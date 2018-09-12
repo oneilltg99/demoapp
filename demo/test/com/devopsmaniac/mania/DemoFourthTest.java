@@ -5,26 +5,26 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import org.junit.Ignore;
 
-public class DemoSecondTest {
+public class DemoFourthTest {
 
 	@Test
-	public void somethingRandom() {
+	public void betterNam() {
 		assertEquals( 1, Demo.somethingRandom() );
 	}
 
 	@Test
 	@Ignore
-	public void ignoreMePlease() {
+	public void skippingMe() {
 		assertEquals( 1, Demo.somethingRandom() );
 	}
 
 	@Test
-        public void yetAnother() {
+        public void yooooooo() {
                 assertEquals( 1, Demo.somethingRandom() );
         }
 
 	@Test
-        public void evenAnother() {
+        public void goodBye() {
                 assertEquals( 1, Demo.somethingRandom() );
         }
 }

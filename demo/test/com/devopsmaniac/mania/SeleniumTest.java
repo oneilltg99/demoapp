@@ -1,6 +1,7 @@
 package com.devopsmaniac.mania;
 
 import static org.junit.Assert.*;
+import org.junit.Ignore;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -8,6 +9,8 @@ import java.net.URL;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.junit.Test; 
+
+@Ignore
 public class SeleniumTest { 
 	
 	@Test
