@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class DemoThirdTest {
 
-	@Test
+/*	@Test
 	public void somethingRandom() {
 		assertEquals( 1, Demo.somethingRandom() );
 	}
@@ -20,5 +20,5 @@ public class DemoThirdTest {
 	@Test
 	public void yetAnotherTest() {
 		assertEquals( 1, Demo.somethingRandom() );
-	}
+	}*/
 }
