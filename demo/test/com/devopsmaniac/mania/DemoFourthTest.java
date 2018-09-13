@@ -7,12 +7,12 @@ import org.junit.Ignore;
 
 public class DemoFourthTest {
 
-	/*@Test
+	@Test
 	public void betterNam() {
-		assertEquals( 1, Demo.somethingRandom() );
+		assertEquals( 1, 1);
 	}
 
-	@Test
+	/*@Test
 	@Ignore
 	public void skippingMe() {
 		assertEquals( 1, Demo.somethingRandom() );

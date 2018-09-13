@@ -9,12 +9,12 @@ import org.junit.Ignore;
 
 public class DemoSecondTest {
 
-/*	@Test
+	@Test
 	public void somethingRandom() {
-		assertEquals( 1, Demo.somethingRandom() );
+		assertEquals( 1, 1);
 	}
 
-	@Test
+	/*@Test
 	@Ignore
 	public void ignoreMePlease() {
 		assertEquals( 1, Demo.somethingRandom() );

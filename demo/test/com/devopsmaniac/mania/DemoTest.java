@@ -7,13 +7,13 @@ import org.junit.Test;
 
 public class DemoTest {
 
-	/*@Test
+	@Test
 	public void somethingRandom() {
 		
-		assertEquals( 1, Demo.somethingRandom() );
+		assertEquals( 1, 1);
 	}
 
-	@Test
+	/*@Test
 	public void somethingRandomAgain() {
 		
 		assertEquals( 1, Demo.somethingRandom() );
