@@ -7,7 +7,7 @@ import org.junit.Ignore;
 
 public class DemoFourthTest {
 
-	@Test
+	/*@Test
 	public void betterNam() {
 		assertEquals( 1, Demo.somethingRandom() );
 	}
@@ -26,5 +26,5 @@ public class DemoFourthTest {
 	@Test
         public void goodBye() {
                 assertEquals( 1, Demo.somethingRandom() );
-        }
+        }*/
 }
