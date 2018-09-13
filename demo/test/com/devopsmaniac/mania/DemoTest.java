@@ -12,4 +12,10 @@ public class DemoTest {
 		
 		assertEquals( 1, Demo.somethingRandom() );
 	}
+
+	@Test
+	public void somethingRandomAgain() {
+		
+		assertEquals( 1, Demo.somethingRandom() );
+	}
 }
