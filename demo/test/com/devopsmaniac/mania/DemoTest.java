@@ -13,9 +13,9 @@ public class DemoTest {
 		assertEquals( 1, 1);
 	}
 
-	/*@Test
+	@Test
 	public void somethingRandomAgain() {
 		
 		assertEquals( 1, Demo.somethingRandom() );
-	}*/
+	}
 }
