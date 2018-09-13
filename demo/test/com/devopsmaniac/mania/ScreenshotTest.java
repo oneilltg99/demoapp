@@ -39,7 +39,7 @@ public class ScreenshotTest {
 	@Rule
 	public ScreenshotTestRule screenshotTestRule = new ScreenshotTestRule();
 
-	@Test
+	/*@Test
 	public void checkRandomSitePass() throws InterruptedException, MalformedURLException {
 
 		driver = new RemoteWebDriver(
@@ -61,7 +61,7 @@ public class ScreenshotTest {
         driver.quit();
 	}
 
-	/*@Test
+	@Test
 	public void checkRandomSiteFail() throws InterruptedException, MalformedURLException {
 
 		RemoteWebDriver driver = new RemoteWebDriver(
