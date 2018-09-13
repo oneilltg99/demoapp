@@ -12,7 +12,7 @@ import org.junit.Test;
 
 public class SeleniumTest { 
 	
-	@Test
+	/*@Test
 	public void checkRandomSitePass() throws InterruptedException, MalformedURLException {
 
 		RemoteWebDriver driver = new RemoteWebDriver(
@@ -33,7 +33,7 @@ public class SeleniumTest {
         driver.quit();
 	}
 
-	/*@Test
+	@Test
 	public void checkRandomSiteFail() throws InterruptedException, MalformedURLException {
 
 		RemoteWebDriver driver = new RemoteWebDriver(
