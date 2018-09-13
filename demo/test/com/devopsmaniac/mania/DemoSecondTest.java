@@ -9,7 +9,7 @@ import org.junit.Ignore;
 
 public class DemoSecondTest {
 
-	@Test
+/*	@Test
 	public void somethingRandom() {
 		assertEquals( 1, Demo.somethingRandom() );
 	}
@@ -28,5 +28,5 @@ public class DemoSecondTest {
 	@Test
         public void evenAnother() {
                 assertEquals( 1, Demo.somethingRandom() );
-        }
+        }*/
 }
