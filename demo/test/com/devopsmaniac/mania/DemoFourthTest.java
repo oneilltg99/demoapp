@@ -12,7 +12,7 @@ public class DemoFourthTest {
 		assertEquals( 1, 1);
 	}
 
-/*	@Test
+	@Test
 	@Ignore
 	public void skippingMe() {
 		assertEquals( 1, Demo.somethingRandom() );
@@ -26,5 +26,5 @@ public class DemoFourthTest {
 	@Test
         public void goodBye() {
                 assertEquals( 1, Demo.somethingRandom() );
-        }*/
+        }
 }
