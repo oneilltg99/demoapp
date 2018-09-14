@@ -12,7 +12,7 @@ public class DemoThirdTest {
 		assertEquals( 1, 1);
 	}
 
-/*	@Test
+	@Test
 	public void anotherTest() {
 		assertEquals( 1, Demo.somethingRandom() );
 	}
@@ -20,5 +20,5 @@ public class DemoThirdTest {
 	@Test
 	public void yetAnotherTest() {
 		assertEquals( 1, Demo.somethingRandom() );
-	}*/
+	}
 }
