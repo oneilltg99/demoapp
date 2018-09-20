@@ -1,5 +1,4 @@
 package com.devopsmaniac.mania;
-//tgo
 
 import static org.junit.Assert.*;
 
