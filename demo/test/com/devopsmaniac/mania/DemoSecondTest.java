@@ -17,16 +17,16 @@ public class DemoSecondTest {
 	@Test
 	@Ignore
 	public void ignoreMePlease() {
-		assertEquals( 1, Demo.somethingRandom() );
+		assertEquals( 1, 1 );
 	}
 
 	@Test
         public void yetAnother() {
-                assertEquals( 1, Demo.somethingRandom() );
+                assertEquals( 1, 1);
         }
 
 	@Test
         public void evenAnother() {
-                assertEquals( 1, Demo.somethingRandom() );
+                assertEquals( 1, 1);
         }
 }

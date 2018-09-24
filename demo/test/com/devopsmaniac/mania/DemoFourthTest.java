@@ -15,16 +15,16 @@ public class DemoFourthTest {
 	@Test
 	@Ignore
 	public void skippingMe() {
-		assertEquals( 1, Demo.somethingRandom() );
+		assertEquals( 1, 1);
 	}
 
 	@Test
         public void yooooooo() {
-                assertEquals( 1, Demo.somethingRandom() );
+                assertEquals( 1, 1);
         }
 
 	@Test
         public void goodBye() {
-                assertEquals( 1, Demo.somethingRandom() );
+                assertEquals( 1, 1 );
         }
 }
