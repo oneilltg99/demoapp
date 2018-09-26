@@ -11,7 +11,7 @@ public class DemoTest {
 	@Test
 	public void somethingRandom() {
 		
-		assertEquals( 1, 1);
+		assertEquals( 1, Demo.somethingRandom());
 	}
 
 	@Test
