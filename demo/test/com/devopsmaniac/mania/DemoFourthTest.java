@@ -7,7 +7,7 @@ import org.junit.Ignore;
 
 
 /**
-* Random sort of test
+* Tests, one of which is ignored.
 */
 public class DemoFourthTest {
 
