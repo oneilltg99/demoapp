@@ -1,12 +1,14 @@
 package com.devopsmaniac.mania;
 
-
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 import org.junit.Ignore;
 
+
+/**
+* Random sort of test
+*/
 public class DemoFourthTest {
 
 	@Test 
