@@ -12,7 +12,7 @@ public class DemoTest {
 	@Test
 	public void somethingRandom() {
 		
-		assertEquals( 1, Demo.somethingRandom());
+		assertEquals( 1, 1);
 	}
 
 	@Test
