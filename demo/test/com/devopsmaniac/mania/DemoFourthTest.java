@@ -13,7 +13,7 @@ public class DemoFourthTest {
 
 	@Test 
 	public void betterNam() {
-		assertEquals( 1, 1);
+		assertEquals( 1, Demo.somethingRandom());
 	}
 
 	@Test
@@ -24,11 +24,11 @@ public class DemoFourthTest {
 
 	@Test
         public void yooooooo() {
-                assertEquals( 1, 1);
+                assertEquals( 1, Demo.somethingRandom());
         }
 
 	@Test
         public void goodBye() {
-                assertEquals( 1, 1);
+                assertEquals( 1, Demo.somethingRandom());
         }
 }
