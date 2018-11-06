@@ -20,6 +20,6 @@ public class DemoThirdTest {
 
 	@Test
 	public void yetAnotherTest() {
-		assertEquals( Demo.somethingRandom(), 1 ); 
+		assertEquals( Demo.somethingRandom(), 1 );  
 	}
 }
