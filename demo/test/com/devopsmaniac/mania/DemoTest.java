@@ -9,12 +9,12 @@ public class DemoTest {
 	@Test
 	public void somethingRandom() {
 		
-		assertEquals( Demo.somethingRandom(), 1);
+		assertEquals( 1, 1);
 	}
 
 	@Test
 	public void somethingRandomAgain() {
 		
-		assertEquals( Demo.somethingRandom(), 1 );
+		assertEquals( 1, 1 );
 	}
 }

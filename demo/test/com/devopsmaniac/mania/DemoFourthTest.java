@@ -13,22 +13,22 @@ public class DemoFourthTest {
 
 	@Test 
 	public void betterNam() {
-		assertEquals( Demo.somethingRandom(), 1);
+		assertEquals( 1, 1);
 	}
 
 	@Test
 	@Ignore
 	public void skippingMe() {
-		assertEquals( Demo.somethingRandom(), 1);
+		assertEquals( 1, 1);
 	}
 
 	@Test
         public void yooooooo() {
-                assertEquals( Demo.somethingRandom(), 1);
+                assertEquals( 1, 1);
         }
 
 	@Test
         public void goodBye() {
-                assertEquals( Demo.somethingRandom(), 1);
+                assertEquals( 1, 1);
         }
 }

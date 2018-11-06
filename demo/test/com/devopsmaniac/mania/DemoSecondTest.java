@@ -11,22 +11,22 @@ public class DemoSecondTest {
 
 	@Test
 	public void somethingRandom() {
-		assertEquals( Demo.somethingRandom(), 1);
+		assertEquals( 1, 1);
 	}
 
 	@Test
 	@Ignore
 	public void ignoreMePlease() {
-		assertEquals( Demo.somethingRandom(), 1);
+		assertEquals( 1, 1);
 	}
 
 	@Test
         public void yetAnother() {
-                assertEquals( Demo.somethingRandom(), 1);
+                assertEquals( 1, 1);
         }
 
 	@Test
         public void evenAnother() {
-                assertEquals( Demo.somethingRandom(), 1);
+                assertEquals( 1, 1);
         }
 }
