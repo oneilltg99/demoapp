@@ -14,7 +14,7 @@ public class Demo {
 		} catch (InterruptedException e) {
 			
 		}
-		if (Math.random() < 0.4)
+		if (Math.random() < 0.1)
 			return 0;
 		else
 			return 1;
