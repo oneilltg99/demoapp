@@ -23,7 +23,7 @@ public class DemoFourthTest {
 	}
 
 	@Test
-        public void yooooooo() {
+        public void hello() {
                 assertEquals( Demo.somethingRandom(), 1);
         }
 
