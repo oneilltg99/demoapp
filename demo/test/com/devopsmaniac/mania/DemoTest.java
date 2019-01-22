@@ -4,9 +4,9 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-// test on tuesday at 3:41pm
 public class DemoTest {
 
+// tgo
 	@Test
 	public void somethingRandom() {
 		
