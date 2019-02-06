@@ -8,13 +8,12 @@ public class Demo {
 
 	public static int somethingRandom() {
 		try {
-			Thread.sleep(10);
+			Thread.sleep(15);
 		} catch (InterruptedException e) {
 			
 		}
 		if (Math.random() < 0.1)
 			return 0;
-		else
-			return 1;
+	U	return 1;
 	}
 }
