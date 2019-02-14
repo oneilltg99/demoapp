@@ -14,6 +14,6 @@ public class Demo {
 		}
 		if (Math.random() < 0.1)
 			return 0;
-	U	return 1;
+		return 1;
 	}
 }
