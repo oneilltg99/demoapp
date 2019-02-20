@@ -5,8 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 import org.junit.Ignore;
 
-// tom
-
 /**
 * Tests, one of which is ignored.
 */
