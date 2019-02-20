@@ -13,7 +13,7 @@ import org.junit.Ignore;
 public class DemoFourthTest {
 
 	@Test 
-	public void betterNam() {
+	public void betterName() {
 		assertEquals( Demo.somethingRandom(), 1);
 	}
 
