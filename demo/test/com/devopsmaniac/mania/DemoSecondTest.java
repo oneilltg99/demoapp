@@ -1,7 +1,8 @@
 package com.devopsmaniac.mania;
 
 
-// tom again
+// pushing when the repo was not discovered but the tool was connected worked fine
+// now I've disconnected the tool. repo exists. going to push again
 
 import static org.junit.Assert.*;
 
