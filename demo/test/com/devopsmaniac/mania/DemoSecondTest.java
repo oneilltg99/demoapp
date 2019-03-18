@@ -29,7 +29,7 @@ public class DemoSecondTest {
         }
 
 	@Test
-        public void passMe() {
+        public void passMeOrFailMe() {
                 assertEquals( Demo.somethingRandom(), 1);
         }
 }
