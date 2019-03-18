@@ -27,4 +27,9 @@ public class DemoSecondTest {
         public void evenAnother() {
                 assertEquals( Demo.somethingRandom(), 1);
         }
+
+	@Test
+        public void passMe() {
+                assertEquals( Demo.somethingRandom(), 1);
+        }
 }
