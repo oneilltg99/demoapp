@@ -12,7 +12,7 @@ public class Demo {
 		} catch (InterruptedException e) {
 			
 		}
-		if (Math.random() < 0.03)
+		if (Math.random() < 0.04)
 			return 0;
 		return 1;
 	}
