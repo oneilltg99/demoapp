@@ -8,11 +8,11 @@ public class Demo {
 
 	public static int somethingRandom() {
 		try {
-			Thread.sleep(17);
+			Thread.sleep(12);
 		} catch (InterruptedException e) {
 			
 		}
-		if (Math.random() < 0.03)
+		if (Math.random() < 0.02)
 			return 0;
 		return 1;
 	}
