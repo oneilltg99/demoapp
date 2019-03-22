@@ -1,6 +1,11 @@
 package com.devopsmaniac.mania;
 
 
+// multi
+// line
+// comment
+
+
 public class Demo {
 
 	public static void main(String[] args) {
