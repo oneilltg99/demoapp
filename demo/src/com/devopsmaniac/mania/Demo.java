@@ -1,11 +1,5 @@
 package com.devopsmaniac.mania;
 
-
-// multi
-// line
-// comment
-
-
 public class Demo {
 
 	public static void main(String[] args) {
@@ -14,7 +8,7 @@ public class Demo {
 
 	public static int somethingRandom() {
 		try {
-			Thread.sleep(11);
+			Thread.sleep(41);
 		} catch (InterruptedException e) {
 			
 		}
