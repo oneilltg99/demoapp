@@ -1,5 +1,13 @@
 package com.devopsmaniac.mania;
 
+/*
+long comment
+aa
+bb
+cc
+dd
+*/
+
 public class Demo {
 
 	public static void main(String[] args) {
