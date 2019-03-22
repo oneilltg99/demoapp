@@ -8,7 +8,7 @@ public class Demo {
 
 	public static int somethingRandom() {
 		try {
-			Thread.sleep(10);
+			Thread.sleep(60);
 		} catch (InterruptedException e) {
 			
 		}
