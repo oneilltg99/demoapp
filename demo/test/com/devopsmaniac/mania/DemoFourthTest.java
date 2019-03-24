@@ -1,5 +1,4 @@
 package com.devopsmaniac.mania;
-// remove repo record, will it create it?
 
 import static org.junit.Assert.*;
 

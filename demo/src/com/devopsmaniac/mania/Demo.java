@@ -1,10 +1,5 @@
 package com.devopsmaniac.mania;
 
-
-// comment
-
-
-
 public class Demo {
 
 	public static void main(String[] args) {
@@ -13,12 +8,13 @@ public class Demo {
 
 	public static int somethingRandom() {
 		try {
-			Thread.sleep(45);
+			Thread.sleep(15);
 		} catch (InterruptedException e) {
 			
 		}
-		if (Math.random() < 0.01)
+		if (Math.random() < 0.11)
 			return 0;
 		return 1;
 	}
+// and add a line too
 }
