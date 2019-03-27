@@ -1,7 +1,5 @@
 package com.devopsmaniac.mania;
 
-// a change
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -19,4 +17,5 @@ public class DemoTest {
 		
 		assertEquals( Demo.somethingRandom(), 1 );
 	}
+
 }
