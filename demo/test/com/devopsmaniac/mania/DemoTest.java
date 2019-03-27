@@ -1,7 +1,5 @@
 package com.devopsmaniac.mania;
 
-// ddd
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
