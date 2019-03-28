@@ -1,5 +1,4 @@
 package com.devopsmaniac.mania;
-//
 
 public class Demo {
 
@@ -13,7 +12,7 @@ public class Demo {
 		} catch (InterruptedException e) {
 			
 		}
-		if (Math.random() < 0.02)
+		if (Math.random() < 0.04)
 			return 0;
 		return 1;
 	}
