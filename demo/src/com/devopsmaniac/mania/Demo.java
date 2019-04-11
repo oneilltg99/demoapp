@@ -1,8 +1,5 @@
 package com.devopsmaniac.mania;
-
-
-
-
+// tom
 public class Demo {
 
 	public static void main(String[] args) {
