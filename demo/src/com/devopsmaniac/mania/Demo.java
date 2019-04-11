@@ -1,6 +1,5 @@
 package com.devopsmaniac.mania;
 
-// tom
 public class Demo {
 
 	public static void main(String[] args) {
@@ -17,5 +16,4 @@ public class Demo {
 			return 0;
 		return 1;
 	}
-// and add a line too
 }
