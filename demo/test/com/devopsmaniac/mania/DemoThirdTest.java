@@ -2,6 +2,8 @@ package com.devopsmaniac.mania;
 
 import org.junit.Test;
 
+/** Lovely comment
+*/
 public class DemoThirdTest {
 
 	@Test
