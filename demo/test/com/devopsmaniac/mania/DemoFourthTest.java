@@ -27,7 +27,7 @@ public class DemoFourthTest {
         }
 
 	@Test
-        public void goodBye() {
+        public void adios() {
                 assertEquals( Demo.somethingRandom(), 1);
         }
 
