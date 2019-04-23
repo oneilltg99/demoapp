@@ -1,11 +1,5 @@
 package com.devopsmaniac.mania;
 
-
-
-
-
-
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -29,6 +23,11 @@ public class DemoFourthTest {
 
 	@Test
         public void hello() {
+                assertEquals( Demo.somethingRandom(), 1);
+        }
+
+	@Test
+        public void goodBye() {
                 assertEquals( Demo.somethingRandom(), 1);
         }
 
