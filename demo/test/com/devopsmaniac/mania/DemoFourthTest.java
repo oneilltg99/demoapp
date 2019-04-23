@@ -35,4 +35,5 @@ public class DemoFourthTest {
         public void goodBye() {
                 assertEquals( Demo.somethingRandom(), 1);
         }
+
 }
