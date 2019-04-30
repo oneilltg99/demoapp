@@ -1,8 +1,5 @@
 package com.devopsmaniac.mania;
 
-
-
-
 import static org.junit.Assert.*;
 
 import java.io.File;
@@ -15,9 +12,7 @@ import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.Statement;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-
 import org.apache.commons.io.FileUtils;
-
 
 import java.net.MalformedURLException;
 import java.net.URL;
