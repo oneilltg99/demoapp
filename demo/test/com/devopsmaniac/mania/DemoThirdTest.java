@@ -1,6 +1,6 @@
 package com.devopsmaniac.mania;
 
-// tom
+// real test
 
 import static org.junit.Assert.*;
 import org.junit.Test;
