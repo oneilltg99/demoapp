@@ -3,7 +3,7 @@ package com.devopsmaniac.mania;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-// lsjfd
+// hello world
 public class DemoTest {
 
 	@Test
