@@ -1,6 +1,5 @@
 package com.devopsmaniac.mania;
 
-// random
 import static org.junit.Assert.*;
 import org.junit.Test;
 
