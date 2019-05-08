@@ -1,7 +1,5 @@
 package com.devopsmaniac.mania;
 
-// real test test 333
-
 import static org.junit.Assert.*;
 import org.junit.Test;
 
