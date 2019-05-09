@@ -3,7 +3,7 @@ package com.devopsmaniac.mania;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-// demo for SAP
+// demo after liunch
 
 public class DemoTest {
 
