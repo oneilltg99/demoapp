@@ -3,7 +3,7 @@ package com.devopsmaniac.mania;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-// demo after liunch
+// demo after lunch
 
 public class DemoTest {
 
