@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3901954c6ff71100bd5f9122be3ee488" label="User Score" max_length="40" name="u_idea_user_score" type="collection">
+        <element label="Score" max_length="40" name="u_score" type="integer"/>
+        <element label="User" max_length="32" name="u_user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="u_user"/>
+        </index>
+    </element>
+</database>

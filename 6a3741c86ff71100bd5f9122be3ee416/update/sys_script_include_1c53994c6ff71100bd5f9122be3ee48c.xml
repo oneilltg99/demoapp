@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.IdeaScoreCalculator</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>IdeaScoreCalculator</name>
+        <script><![CDATA[var IdeaScoreCalculator = Class.create(); 
+IdeaScoreCalculator.prototype = {
+    initialize: function() {
+    },
+   
+   type: 'IdeaScoreCalculator',
+   
+   /*_________________________________________________________________
+    * Description: calculate the score of a user based on total votes.
+   Ideas with very few votes are excluded in the calculation.
+    * Parameters: userId identifying the submitter user
+    * Returns: user's score
+ ________________________________________________________________*/
+   calculateUserScore: function(userId) {
+      
+      var gr = new GlideRecord('u_idea');
+      gr.addQuery('u_submitter',userId);
+      gr.addNotNullQuery('u_voters');
+      gr.query();
+      var ideaCount = 0;
+      var userVotes = 0;
+      while(gr.next()) {
+         var ideaVotes = gr.u_voters.split(',').length;
+         if( ideaVotes < 2 )
+            continue; // Skip unnoticed ideas altogether.
+         
+         userVotes += ideaVotes;
+         ideaCount++;
+      }
+      
+      // Keep it simple for now.
+      return ideaCount === 0 ? 0 : Math.ceil(userVotes / ideaCount);
+   },
+/*_________________________________________________________________
+    * Description: calculate the score of an idea based on votes and on the score
+   of the submitting user.
+    * Parameters:
+   ideaRecord - the record of the idea being calculated
+   userWeight - (optional) the known score of the submitter user. Queried if not provided.
+    * Returns: idea's score
+   ________________________________________________________________*/
+   calculateIdeaScore: function(ideaRecord,userScore) {
+      var voteCount = ideaRecord.u_voters.split(',').length;
+      var submitterId = ideaRecord.u_submitter;
+      
+      var score = 0;
+      if(userScore === null) {
+         var gr = new GlideRecord('u_idea_user_score');
+         gr.query('u_user', submitterId);
+         if(!gr.u_score.nil())
+            score = gr.u_score;
+      } else {
+         score = userScore;
+      }
+      
+      return Math.ceil(voteCount + score);
+   }
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2014-03-26 20:57:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>1c53994c6ff71100bd5f9122be3ee48c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IdeaScoreCalculator</sys_name>
+        <sys_package display_value="Ideaville" source="6a3741c86ff71100bd5f9122be3ee416">6a3741c86ff71100bd5f9122be3ee416</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Ideaville">6a3741c86ff71100bd5f9122be3ee416</sys_scope>
+        <sys_update_name>sys_script_include_1c53994c6ff71100bd5f9122be3ee48c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2014-03-26 20:57:30</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="788889c86ff71100bd5f9122be3ee440" label="User" max_length="40" name="u_user" type="collection"/>
+</database>

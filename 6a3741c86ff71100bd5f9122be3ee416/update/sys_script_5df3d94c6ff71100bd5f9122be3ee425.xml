@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>u_idea</collection>
+        <condition>current.u_voters.changes() || current.u_submitter.changes()</condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Score</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[/*
+ Rule fired after an idea is updated to ensure that the submitter user's score is
+ updated and an idea.score.changed event is fired to ensure all of the submitter's ideas'
+ weights are subsequently updated.
+ */
+var c = new IdeaScoreCalculator();
+var userScore = c.calculateUserScore(current.u_submitter);
+	
+// First update the user's weight with this updated idea.
+var gr = new GlideRecord('u_idea_user_score');
+gr.addQuery('u_user',current.u_submitter);
+gr.query();
+if (gr.next()) {
+   gr.u_score = userScore;
+   gr.update();
+} else {
+   gr.u_score = userScore;
+   gr.u_user = current.u_submitter;
+   gr.insert();
+}
+
+// Then, first the event that will update all of the submitters ideas, including this one,
+// with an adjusted score.
+gs.eventQueue("idea.score.changed", current);
+]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2014-03-26 20:59:21</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5df3d94c6ff71100bd5f9122be3ee425</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Score</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ideaville" source="6a3741c86ff71100bd5f9122be3ee416">6a3741c86ff71100bd5f9122be3ee416</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Ideaville">6a3741c86ff71100bd5f9122be3ee416</sys_scope>
+        <sys_update_name>sys_script_5df3d94c6ff71100bd5f9122be3ee425</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2014-06-27 00:12:42</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

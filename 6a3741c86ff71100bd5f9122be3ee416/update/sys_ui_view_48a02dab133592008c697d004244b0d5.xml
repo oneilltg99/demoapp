@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>exp_db7902dab133592008c697d004244b0d5</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-03-02 17:31:10</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>48a02dab133592008c697d004244b0d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exp_db7902dab133592008c697d004244b0d5</sys_name>
+        <sys_package display_value="Ideaville" source="6a3741c86ff71100bd5f9122be3ee416">6a3741c86ff71100bd5f9122be3ee416</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Ideaville">6a3741c86ff71100bd5f9122be3ee416</sys_scope>
+        <sys_update_name>sys_ui_view_48a02dab133592008c697d004244b0d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-03-02 17:31:10</sys_updated_on>
+        <title>Exp_db7902dab133592008c697d004244b0d5</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

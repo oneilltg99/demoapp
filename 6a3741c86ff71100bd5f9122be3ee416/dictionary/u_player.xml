@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="47f10e1f1379e20099bdb8b12244b0da" label="Player" max_length="40" name="u_player" type="collection">
+        <element default="#000" label="Color" max_length="40" name="u_color" type="color"/>
+    </element>
+</database>
